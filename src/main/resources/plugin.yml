@@ -1,0 +1,11 @@
+name: CoordinateSystem
+version: '${project.version}'
+main: de.libertix.coordinatesystem.CoordinateSystem
+api-version: 1.19
+
+commands:
+  spawnGraph:
+    description: Spawn a graph with various exponents, ranges or compression thresholds.
+    usage: spawnGraph <exponent> <range> <maxValueBeforeCompression>
+  deleteGraph:
+    description: Delete a graph by clicking on one.
